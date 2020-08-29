@@ -1,0 +1,60 @@
+/* tomorrow-regular - latin */
+@font-face {
+  font-family: 'Tomorrow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/tomorrow-v3-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Tomorrow Regular'), local('Tomorrow-Regular'),
+       url('../fonts/tomorrow-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/tomorrow-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/tomorrow-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/tomorrow-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/tomorrow-v3-latin-regular.svg#Tomorrow') format('svg'); /* Legacy iOS */
+}
+
+.Nav-logo {
+  width: 5rem;
+  padding: 2rem;
+}
+
+.Navigation-bar-outer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 6rem;
+  background-color: #4ba3c3;
+}
+
+.Navigation-bar-inner {
+  position: relative;
+  width: auto;
+  justify-content: space-between;
+  height: inherit;
+  margin: 0 auto 0 auto;
+}
+
+.Navigation-bar-button {
+  width: 10rem;
+  height: inherit;
+  background-color: #4ba3c3;
+  margin: 0 1rem 0 1rem;
+  color: #e7e7e7e7;
+  font-family: 'Tomorrow';
+  font-size: 1.5rem;
+  border: none;
+  border-right: 0.5rem solid #175676;
+  border-bottom: 0.5rem solid #175676;
+}
+
+.Navigation-bar-button:active, 
+.Navigation-bar-button:hover{
+  width: 10rem;
+  height: inherit;
+  background-color: #175676;
+  color: #e7e7e7e7;
+  border-right: 0.1rem solid #175676;
+  border-bottom: 0.1rem solid #175676;
+  box-shadow: #637074;
+}
