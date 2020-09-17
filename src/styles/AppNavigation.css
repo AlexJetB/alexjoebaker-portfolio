@@ -22,9 +22,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: auto;
   height: 6rem;
   background-color: #4ba3c3;
+  border-right: 1rem solid #175676;
+  border-bottom: 1rem solid #175676;
+  padding: 1rem 0 1rem 0;
 }
 
 .Navigation-bar-inner {
@@ -40,21 +43,20 @@
   height: inherit;
   background-color: #4ba3c3;
   margin: 0 1rem 0 1rem;
-  color: #e7e7e7e7;
+  color: #175676;
   font-family: 'Tomorrow';
   font-size: 1.5rem;
   border: none;
   border-right: 0.5rem solid #175676;
   border-bottom: 0.5rem solid #175676;
+  transition: all 300ms;
 }
 
 .Navigation-bar-button:active, 
-.Navigation-bar-button:hover{
+.Navigation-bar-button:hover {
   width: 10rem;
   height: inherit;
   background-color: #175676;
   color: #e7e7e7e7;
-  border-right: 0.1rem solid #175676;
-  border-bottom: 0.1rem solid #175676;
   box-shadow: #637074;
 }
