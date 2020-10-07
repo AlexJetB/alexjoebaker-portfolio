@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Tomorrow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/tomorrow-v3-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Tomorrow Regular'), local('Tomorrow-Regular'),
+       url('../fonts/tomorrow-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/tomorrow-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/tomorrow-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/tomorrow-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/tomorrow-v3-latin-regular.svg#Tomorrow') format('svg'); /* Legacy iOS */
+}
+
+#profileImg {
+  width: 90%;
+}
+
+.main {
+  margin-top: 150px;
+}
+
+.column {
+  float: left;
+  width: 35%;
+  padding: 2%;
+  align-self: center;
+}
+
+.row {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  font-family: 'Tomorrow';
+  font-size: 3rem;
+  text-align: center;
+}

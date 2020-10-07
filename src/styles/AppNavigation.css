@@ -18,11 +18,13 @@
 }
 
 .Navigation-bar-outer {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: auto;
   height: 6rem;
   background-color: #4ba3c3;
   border-right: 1rem solid #175676;
@@ -39,8 +41,12 @@
 }
 
 .Navigation-bar-button {
+  display: inline-block;
+  text-align: center;
+  text-justify: auto;
+  text-decoration: none;
   width: 10rem;
-  height: inherit;
+  line-height: 5rem;
   background-color: #4ba3c3;
   margin: 0 1rem 0 1rem;
   color: #175676;
@@ -54,8 +60,6 @@
 
 .Navigation-bar-button:active, 
 .Navigation-bar-button:hover {
-  width: 10rem;
-  height: inherit;
   background-color: #175676;
   color: #e7e7e7e7;
   box-shadow: #637074;
