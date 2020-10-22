@@ -19,6 +19,8 @@ const Home = () => {
           the link below! <br />
         <br /> 
           <img src={github_logo}/><a href="https://github.com/AlexJetB/alexjoebaker-portfolio.git">github.com/AlexJetB/alexjoebaker-portfolio.git</a>
+        <br />
+          This site is still under construction!
         </div>
       </Item>
     </PageOverview>

@@ -14,7 +14,7 @@ const Navigation = () => {
                 <Link className="Navigation-bar-button" to="/bg">Background</Link>
                 <Link className="Navigation-bar-button" to="/sk">Skillset</Link>
                 <Link className="Navigation-bar-button" to="/pr">Projects</Link>
-                <Link className="Navigation-bar-button" to="/ct">Contact</Link>
+                {/* <Link className="Navigation-bar-button" to="/ct">Contact</Link> */}
             </div>
         </div>
     );
