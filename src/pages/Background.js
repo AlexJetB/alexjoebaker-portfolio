@@ -1,5 +1,15 @@
 import React from 'react';
 
-const Background = () => <div>This is the background page</div>;
+import { PageOverview } from '../layout';
+import Item from '../partials/item';
 
+const Background = () => {
+  return (
+    <PageOverview header="Background">
+      <Item>
+        
+      </Item>
+    </PageOverview>
+  );
+}
 export default Background;

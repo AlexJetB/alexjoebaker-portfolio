@@ -11,7 +11,13 @@
        url('../fonts/tomorrow-v3-latin-regular.svg#Tomorrow') format('svg'); /* Legacy iOS */
 }
 
-#profileImg {
+.logo-small {
+  width: 4rem;
+  padding-left: 90%;
+  padding-top: 5%;
+}
+
+.profileImg {
   width: 90%;
 }
 
@@ -20,6 +26,7 @@
   width: 100%;
   height: 100%;
   overflow-y: hidden;
+  transition: all 300ms;
 }
 
 body::-webkit-scrollbar {
@@ -52,6 +59,12 @@ body {
 h1 {
   font-family: 'Tomorrow';
   font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Tomorrow';
+  font-size: 2rem;
   text-align: center;
 }
 

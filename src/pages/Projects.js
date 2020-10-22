@@ -1,5 +1,19 @@
 import React from 'react';
 
-const Projects= () => <div>This is the projects page</div>;
+import { PageOverview } from '../layout';
+import Item from '../partials/item';
+
+const Projects= () => {
+  return (
+    <PageOverview header="Projects">
+      <Item>
+        <li>Item 1</li>
+      </Item>
+      <Item>
+        <li>Item 2</li>
+      </Item>
+    </PageOverview>
+  )
+}
 
 export default Projects;
